@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'ArialMT';
+    url('../fonts/ArialMT.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    padding: 45px 80px;
+    background-color: #ffffff;
+    width: 1400px;
+    margin: auto;
+    font-family: "ArialMT", sans-serif;
+}
+
+.left-column{
+    margin-right: 55px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.photo{
+    width: 430px;
+    height: 350px;
+    alt: "This is my photo";
+}
+
+.right-column{
+    width: 743px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 743px;
+    height: 44px;
+    background-color: #e7c734;
+    font-size: 23px;
+    line-height: 31px;
+    box-sizing: border-box;
+    color: #424243;
+    padding: 8px 37px;
+    margin-bottom: 33px;
+    letter-spacing: 1px;
+}
+
+.text{
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #424243;
+}
