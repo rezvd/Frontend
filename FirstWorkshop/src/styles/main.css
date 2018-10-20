@@ -3,13 +3,13 @@ body{
 }
 
 .header, .main{
-    width: 1250px;
+    width: 1230px;
     margin: 0 auto;
 }
 
 .header{
     padding: 120px 0 100px 0;
-    border-bottom: 1px solid #333c40 ;
+    border-bottom: 1px solid #9c9da0 ;
 }
 
 .header__title{
@@ -26,7 +26,7 @@ body{
     font-size: 27px;
     font-weight: normal;
     color: #434244;
-    margin: 15px 0 0 0;
+    margin: 2px 0 0 0;
 }
 
 .contacts{
@@ -52,7 +52,7 @@ body{
 }
 
 .main{
-    padding: 40px 0 510px 0;
+    padding: 40px 0 460px 0;
     font-size: 0;
 }
 
@@ -66,8 +66,8 @@ body{
 }
 
 .main__right{
-    width: 825px;
-    padding-left: 65px;
+    width: 800px;
+    padding-left: 71px;
     box-sizing: border-box;
 }
 
@@ -76,7 +76,7 @@ body{
 }
 
 .personal-info__title, .experience__title{
-    padding: 10px 25px;
+    padding: 10px 35px;
     margin: 0;
     display: inline-block;
     background-color: #e8c734;
@@ -87,7 +87,7 @@ body{
 }
 
 .personal-info__content{
-    margin-top: 35px;
+    margin-top: 33px;
 }
 
 .personal-info__text__bold{
@@ -98,6 +98,9 @@ body{
     font-family: Arial;
     font-size: 18px;
     color: #434244;
+    letter-spacing: 0px;
+    line-height: 31px;
+    text-align: justify;
 }
 
 .experience{
@@ -109,7 +112,7 @@ body{
 }
 
 .place{
-    margin-bottom: 60px;
+    margin-bottom: 55px;
     font-family: Arial;
 }
 
@@ -121,12 +124,12 @@ body{
 
 .place_job{
     font-weight: bold;
-    margin: 30px 0 0 0;
+    margin: 27px 0 0 0;
     color: #434244;
 }
 
 .place__company{
-    margin-top: 6px;
+    margin-top: 9px;
 }
 
 .place__company__name{
@@ -149,8 +152,9 @@ body{
 
 .place__description{
     font-size: 17px;
-    margin: 30px 0 0 0;
+    margin: 22px 0 0 0;
     color: #9c9da0;
+    line-height: 31px;
 }
 
 .place__description__bold{
