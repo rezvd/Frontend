@@ -17,7 +17,7 @@ body{
 }
 
 .header{
-    margin-bottom: 10px;
+    margin-bottom: 46px;
 }
 
 .logo{
@@ -34,7 +34,7 @@ body{
     margin: 0;
     padding: 0;
     list-style: none;
-    font-family: Inconsolata;
+    font-family: Arial;
 }
 
 .menu__item {
@@ -51,11 +51,13 @@ body{
 }
 
 .main__photo {
-    margin-bottom: 70px;
+    z-index: -1;
+    width: 1062px;
+    margin-bottom: 91px;
 }
 
 .content {
-    margin: 0 40px 0 75px;
+    margin: 0 54px 0 80px;
     width: 650px;
     display: inline-block;
 }
@@ -65,9 +67,11 @@ body{
     color: #b4ad9e;
     font-family: "Arial";
     text-transform: uppercase;
+    margin: 0;
 }
 
 .content__title {
+    margin-top: 21px;
     font-size: 30px;
     color: #626262;
     font-family: "Arial";
@@ -82,8 +86,9 @@ body{
 }
 
 .content__photo {
-    width: 660px;
-    margin-bottom: 40px;
+    width: 661px;
+    height: 496px;
+    margin-bottom: 20px;
 }
 
 .sidebar {
@@ -97,7 +102,9 @@ body{
 }
 
 .about-author__photo {
-    margin-bottom: 20px;
+    margin: 0 0 24px 0;
+    width: 272px;
+    height: 177px;
 }
 
 .about-author__title {
@@ -105,7 +112,8 @@ body{
     line-height: 20px;
     color: #626262;
     font-family: "Arial";
-    margin-bottom: 15px;
+    margin: 0 0 18px 0;
+    padding: 0;
     font-weight: normal;
 }
 
@@ -125,16 +133,18 @@ body{
     color: #b4ad9e;
     font-family: "Arial";
     text-transform: uppercase;
+    margin: 0 0 30px 0;
 }
 
 .top-list {
     padding-left: 20px;
     color: #b4ac9e;
+    padding-left: 17px;
 }
 
 .top-list__item {
-    margin: 0 0 20px 0;
-    padding: 0;
+    margin: 0 0 27px 0;
+    padding-left: 11px;
 }
 
 .top-list__post-title {
@@ -156,7 +166,7 @@ body{
     width: 100%;
     background-color: #efefef;
     box-sizing: border-box;
-    margin-top: 230px;
+    margin-top: 212px;
     margin-bottom: 0;
 }
 
@@ -165,7 +175,7 @@ body{
     margin: 0 auto;
     box-sizing: border-box;
     width: 1200px;
-    padding: 30px 150px;
+    padding: 23px 150px;
 }
 
 .footer-list {
@@ -177,7 +187,6 @@ body{
 .footer-list__item {
     display: inline-block;
     font-size: 14px;
-    line-height: 24px;
     color: #000000;
     font-family: "Arial";
     margin-right: 20px;
