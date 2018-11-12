@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <title>Palo Alto</title>
     <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet">
 </head>
 <body>
 <div class="container">
     <div class="header">
         <h1 class="header__title">Palo Alto</h1>
-        <ul class="menu header">
-            <li class="menu__item">Home</li>
-            <li class="menu__item">About</li>
-            <li class="menu__item">Archive</li>
-            <li class="menu__item">Contact</li>
-            <li class="menu__item"><img src="../images/Search.png"></li>
+        <ul class="header__menu">
+            <li class="header-menu__item__inactive">Home</li>
+            <li class="header-menu__item"><a href="main.html">About</a></li>
+            <li class="header-menu__item"><a href="main.html">Archive</a></li>
+            <li class="header-menu__item"><a href="main.html">Contact</a></li>
+            <a href="main.html"><li class="header-menu__item__search"></li></a>
         </ul>
     </div>
     <div class="content">
         <div class="content__post">
-            <p class="post__tag">I do travel</p>
             <p class="post__date">Sep 20</p>
+            <a href="main.html" class="post__category">I do travel</a>
             <h2 class="post__title">No difference how many peaks you reach if there was no pleasure in the climb.</h2>
             <p class="post__text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum
                 urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed
@@ -28,18 +29,18 @@
                 Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in
                 volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus
                 nisi, aliquam sed tincidunt sit amet, pretium et augue.</p>
-            <div class="post__button">Read more</div>
+            <a href="main.html" class="post__button">Read more</a>
             <ul class="post__hashtags">
-                <li class="hashtags__item">Yosemite</li>
-                <li class="hashtags__item">Peak</li>
-                <li class="hashtags__item">Explorer</li>
+                <li class="hashtags__item"><a href="main.html">Yosemite</a></li>
+                <li class="hashtags__item"><a href="main.html">Peak</a></li>
+                <li class="hashtags__item"><a href="main.html">Explorer</a></li>
             </ul>
         </div>
 
         <div class="content__post">
-            <img src="../images/Post-2.jpeg" class="post__photo photo-center">
-            <p class="post__tag">I do observe</p>
-            <p class="post__date">Sep 18</p>
+            <div class="post__photo__center"><img src="../images/Post-2.jpeg" class="photo__center"></div>
+            <p class="post__date__small">Sep 18</p>
+            <a href="main.html" class="post__category">I do observe</a>
             <h2 class="post__title">You know, I'd rather argue with you, then laugh with anyone else.</h2>
             <p class="post__text__important">Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus, tempor
                 velit hendrerit, vulputate lacus. Nunc fermentum nunc sem, ac eleifend tellus cursus nec. Donec a
@@ -53,51 +54,72 @@
             <p class="post__text">Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum viverra.
                 Curabitur semper scelerisque turpis eu ullamcorper. Morbi tincidunt auctor orci id consequat. Nulla odio
                 mi, iaculis id congue quis, euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.</p>
-            <div class="post__button">Read more</div>
+            <a href="main.html" class="post__button">Read more</a>
             <ul class="post__hashtags">
-                <li class="hashtags__item">Yosemite</li>
-                <li class="hashtags__item">Peak</li>
-                <li class="hashtags__item">Photo</li>
+                <li class="hashtags__item"><a href="main.html">Yosemite</a></li>
+                <li class="hashtags__item"><a href="main.html">Peak</a></li>
+                <li class="hashtags__item"><a href="main.html">Photo</a></li>
             </ul>
         </div>
 
         <div class="content__post">
-            <p class="post__tag">I do reflect</p>
             <p class="post__date">Sep 11</p>
+            <a href="main.html" class="post__category">I do reflect</a>
             <h2 class="post__title">Democracy means simply the bludgeoning of the people by the people for the people.
             </h2>
-            <img src="../images/Post-3.jpeg" class="post__photo photo-left">
-            <p class="post__text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi, aliquam sed tincidunt sit amet, pretium et augue.</p>
-            <p class="post__text">Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent dictum eleifend dui et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem, <span class="post__text__link">vestibulum malesuada</span> justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue nisi, venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam quis orci dignissim, posuere nibh a, eleifend augue. Cras quis metus nec tortor aliquet ullamcorper. Quisque varius porta metus, ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.</p>
-            <p class="post__text__quote">Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit lectus turpis, a porttitor velit imperdiet id.</p>
-            <p class="post__text">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam scelerisque ante mauris, egestas commodo nisi gravida ultrices. Suspendisse dapibus feugiat tincidunt. Aliquam gravida quam at ipsum sagittis bibendum. </p>
-            <div class="post__button">Read more</div>
+            <div class="post__photo__left"><img src="../images/Post-3.jpeg" class="photo__left"></div>
+            <p class="post__text">Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut ac elementum
+                urna. Pellentesque suscipit metus et egestas congue. Duis eu pellentesque turpis, ut maximus metus. Sed
+                ultrices tellus vitae rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci egestas.
+                Morbi posuere venenatis ipsum, ac vestibulum quam dignissim efficitur. Ut vitae rutrum augue, in
+                volutpat quam. Cras a viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus
+                nisi, aliquam sed tincidunt sit amet, pretium et augue.</p>
+            <p class="post__text">Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis. Praesent
+                dictum eleifend dui et efficitur. Nunc non orci in neque sodales semper. Etiam euismod volutpat lorem,
+                <span class="post__text__link">vestibulum malesuada</span> justo aliquet eget. Nunc lacus ante, varius a
+                euismod eu, finibus commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam augue nisi,
+                venenatis vitae ex at, lobortis fringilla nibh. Proin placerat enim vitae egestas eleifend. Aliquam quis
+                orci dignissim, posuere nibh a, eleifend augue. Cras quis metus nec tortor aliquet ullamcorper. Quisque
+                varius porta metus, ut maximus dolor euismod nec. Suspendisse sit amet feugiat turpis.</p>
+            <p class="post__text__quote">Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi hendrerit
+                lectus turpis, a porttitor velit imperdiet id.</p>
+            <p class="post__text">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec
+                hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis
+                tincidunt auctor. Nullam scelerisque ante mauris, egestas commodo nisi gravida ultrices. Suspendisse
+                dapibus feugiat tincidunt. Aliquam gravida quam at ipsum sagittis bibendum. </p>
+            <a href="main.html" class="post__button">Read more</a>
             <ul class="post__hashtags">
-                <li class="hashtags__item">Democracy</li>
-                <li class="hashtags__item">Introspection</li>
+                <li class="hashtags__item"><a href="main.html">Democracy</a></li>
+                <li class="hashtags__item"><a href="main.html">Introspection</a></li>
             </ul>
         </div>
     </div>
+</div>
+<div class="conainer-footer">
     <div class="footer">
         <h3 class="footer__title">Palo Alto</h3>
-
-        <ul class="menu footer">
-            <li class="menu__item">Home</li>
-            <li class="menu__item">About</li>
-            <li class="menu__item">Archive</li>
-            <li class="menu__item">Contact</li>
-            <li class="menu__item"><img src="../images/Search.png"></li>
+        <ul class="footer__menu">
+            <li class="footer-menu__item__inactive">Home</li>
+            <li class="footer-menu__item"><a href="main.html">About</a></li>
+            <li class="footer-menu__item"><a href="main.html">Archive</a></li>
+            <li class="footer-menu__item"><a href="main.html">Contact</a></li>
+            <a href="main.html">
+                <li class="footer-menu__item__search"></li>
+            </a>
         </ul>
-        <p class="footer__note">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt <auctor class=""></auctor></p>
-        <p class="footer__rights">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by <a class="footer__rights__link">PixelBuddha Team</a></p>
-        <div class="footer__ social">
-            <img src="../images/Social.png" class="social__facebook">
-            <img src="../images/Social.png" class="social__twitter">
-            <img src="../images/Social.png" class="social__instagram">
-            <img src="../images/Social.png" class="social__pinterest">
+        <p class="footer__note">Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec
+            hendrerit
+            ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt
+        </p>
+        <p class="footer__rights">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by <a href="main.html"
+                class="footer__rights__link">PixelBuddha Team</a></p>
+        <div class="footer__social">
+            <a href="http://facebook.com"> <span class="social__facebook"></span></a>
+            <a href="http://twitter.com"> <span class="social__twitter"></span></a>
+            <a href="http://instagram.com"> <span class="social__instagram"></span></a>
+            <a href="http://pinterest.com"> <span class="social__pinterest"></span></a>
         </div>
     </div>
-</div>
 </div>
 </body>
 </html>
