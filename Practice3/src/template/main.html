@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i&amp;subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Давайте начнём!</h1>
+    <form action="#" method="post">
+        <label for="first-name" class="first-name__label">Имя</label>
+        <input id="first-name" type="text" placeholder="Чендлер" tabindex="1">
+        <label for="last-name" class="last-name__label">Фамилия</label>
+        <input id="last-name" type="text" placeholder="Бинг" tabindex="2">
+
+        <div class="gender">
+            <label class="gender__label">Ваш пол</label>
+            <label class="gender__label__female">
+                <input type="radio" name="gender" value="female" class="gender__radio" tabindex="3">Женский
+            </label>
+            <label class="gender__label__male">
+                <input type="radio" name="gender" value="male" class="gender__radio" tabindex="4">Мужской
+            </label>
+        </div>
+
+        <label for="email" class="email__label">Введите электронный адрес</label>
+        <input id="email" type="email" placeholder="email@gmail.com" tabindex="5">
+        <label for="password" class="password__label">Придумайте пароль</label>
+        <input id="password" type="password" placeholder="Пароль" tabindex="6">
+
+        <label for="agreement" class="agreement__label">
+            <input id="agreement" type="checkbox" tabindex="7"> Я принимаю условия <a href="#" class="link">Пользовательского
+            соглашения</a>
+            и даю своё согласие на обработку моих персональных данных
+            на условиях, определенных <a href="#" class="link">Политикой конфиденциальности</a>.
+        </label>
+
+        <input type="submit" name="submit" value="Зарегистрироваться" class="button" tabindex="8">
+    </form>
+</div>
+
+</body>
+</html>
