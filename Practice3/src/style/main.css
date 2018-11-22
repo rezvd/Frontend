@@ -1,0 +1,76 @@
+.container {
+    width: 425px;
+    box-shadow: 0 3px 15px #f1f1f1;
+    margin: 20px auto;
+    padding: 65px 35px 90px 20px;
+    box-sizing: border-box;
+    font-family: "P TSans", sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 33px;
+    line-height: 20px;
+    color: #262e73;
+    font-weight: bold;
+}
+
+#last-name, #first-name, #email, #password {
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 13px 17px 15px 17px;
+    box-sizing: border-box;
+    border: 1px solid #a9b0bb;
+    font-size: 17px;
+    color: #c1c9d5;
+}
+
+.gender {
+    margin-bottom: 20px;
+}
+
+.gender__label__female, .gender__label__female{
+    font-size: 17px;
+    color: #282828;
+}
+
+.gender__label__female {
+    margin-right: 23px;
+}
+
+.gender__radio {
+    margin: 5px;
+}
+
+
+.link {
+    color: #5c6296;
+    text-decoration: none;
+}
+
+.first-name__label, .last-name__label, .email__label, .password__label, .agreement__label, .gender__label {
+    display: block;
+    font-size: 14px;
+    color: #262e73;
+    margin-bottom: 10px;
+}
+
+.agreement__label {
+    font-size: 12px;
+    line-height: 14px;
+    color: #565d69;
+}
+
+.button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    height: 42px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 3px 15px #f6f6f9;
+    background-color: #0bc691;
+    font-size: 17px;
+    color: #ffffff;
+}
