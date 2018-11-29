@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+.container {
+    font-family: "Open Sans", sans-serif;
+    padding: 160px 90px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+.header__title {
+    font-size: 50px;
+    letter-spacing: 6px;
+    line-height: 59px;
+    color: #000000;
+    font-family: "Dosis", sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0 0 42px 0;
+    text-transform: uppercase;
+}
+
+.header__text {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #798285;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 150px;
+}
+
+.content__post {
+    margin-bottom: 110px;
+    display: flex;
+    flex-direction: row;
+}
+
+.post__info {
+    width: 40%;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+.post-info__date {
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.post-info__album-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.post__description {
+    width: 57%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-description__title {
+    font-size: 23px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+    margin: 0 0 22px 0;
+}
+
+.post-description__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #acacac;
+    margin: 0 0 32px 0;
+}
+
+.button {
+    display: inline-block;
+    height: 55px;
+    padding: 20px 80px;
+    background-color: #000;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.footer {
+    background: url("../images/background.png") bottom repeat-x;
+    height: 785px;
+    width: 100%;
+    margin-top: -400px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        padding: 160px 50px 0;
+    }
+
+    .header__text {
+        padding: 0;
+    }
+
+    .content__post {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post__info, .post__description {
+        display: block;
+        width: 100%;
+    }
+
+    .post-info {
+        margin: 0 0 42px 0;
+    }
+
+    .post-description__button {
+        margin: 0 auto;
+        display: block;
+        width: 200px;
+    }
+
+}
