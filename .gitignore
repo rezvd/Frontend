@@ -4,4 +4,4 @@
 *.iml
 
 # production
-/build
+build/
