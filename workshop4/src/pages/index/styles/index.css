@@ -1,0 +1,44 @@
+.main {
+    display: inline-block;
+}
+
+.header__photo {
+    z-index: -1;
+    width: 1062px;
+    margin-bottom: 91px;
+}
+
+.content {
+    margin: 0 54px 0 80px;
+    width: 650px;
+    display: inline-block;
+}
+
+.content__section {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.content__title {
+    margin-top: 21px;
+    font-size: 30px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+    font-weight: normal;
+}
+
+.content__text {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+}
+
+.content__photo {
+    width: 661px;
+    height: 496px;
+    margin-bottom: 20px;
+}

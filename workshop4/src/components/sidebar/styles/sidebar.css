@@ -1,0 +1,68 @@
+.sidebar {
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.about-author {
+    margin-bottom: 25px;
+}
+
+.about-author__photo {
+    margin: 0 0 24px 0;
+    width: 272px;
+    height: 177px;
+}
+
+.about-author__title {
+    font-size: 24px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+    margin: 0 0 18px 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.about-author__text {
+    font-size: 12px;
+    line-height: 20px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+}
+
+.top-posts {
+
+}
+
+.top-posts__title{
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: "Arial",sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+
+.top-list {
+    color: #b4ac9e;
+    padding-left: 17px;
+}
+
+.top-list__item {
+    margin: 0 0 27px 0;
+    padding-left: 11px;
+}
+
+.top-list__post-title {
+    font-size: 16px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+    margin: 0 0 12px 0;
+}
+
+.top-list__comments-number {
+    font-size: 12px;
+    color: #b4ad9e;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+}

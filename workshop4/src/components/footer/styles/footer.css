@@ -1,0 +1,30 @@
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #efefef;
+    box-sizing: border-box;
+    margin-top: 212px;
+    margin-bottom: 0;
+}
+
+.footer__container {
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1200px;
+    padding: 23px 150px;
+}
+
+.footer-list {
+    display: inline-block;
+    list-style: none;
+    padding: 0
+}
+
+.footer-list__item {
+    display: inline-block;
+    font-size: 14px;
+    color: #000000;
+    font-family: "Arial", sans-serif;
+    margin-right: 20px;
+}

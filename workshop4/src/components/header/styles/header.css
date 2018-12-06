@@ -1,0 +1,29 @@
+.header{
+    margin-bottom: 46px;
+}
+
+.logo{
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 340px;
+    font-family: Inconsolata, sans-serif;
+    font-weight: normal;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+.menu__item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #626262;
+    font-family: "Arial", sans-serif;
+    margin-left: 80px;
+}
