@@ -1,0 +1,107 @@
+
+.header {
+    margin: 50px 0 56px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header__title {
+    display: flex;
+    font-size: 42px;
+    line-height: 25px;
+    color: #333333;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 63%;
+}
+
+.header-menu__item, .header-menu__item__inactive {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-menu__item__inactive {
+    opacity: 0.5;
+}
+
+.header-menu-item, .header-menu__item__inactive {
+    color: #333333;
+}
+
+.header-menu__item:after {
+    position: relative;
+    display: block;
+    bottom: -10px;
+    right: -100%;
+    content: "";
+    background-color: #5c6bc0;
+    height: 2px;
+    width: 0;
+    transition: right 0.3s, width 0.3s;
+}
+
+.header-menu__item:hover:after {
+    right: 0;
+    width: 100%;
+}
+
+.header-menu__item:active {
+    color: #5c6bc0;
+}
+
+.header-menu__item__search {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 16px;
+    height: 17px;
+    vertical-align: text-top;
+}
+
+.header-menu__item__search {
+    background: url("./images/Search-header.png") center center no-repeat;
+}
+
+.header-menu__item__search:hover {
+    background: url("./images/Search-header-hover.png") center center no-repeat;
+}
+
+@media screen and (max-width: 480px) {
+
+    .header-menu {
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .header__menu {
+        display: block;
+        width: 37px;
+        height: 27px;
+        background: url("./images/menu.png") no-repeat right top;
+    }
+
+    .header-menu__item, .header-menu__item__inactive, .header-menu__item__search {
+        display: none;
+    }
+}

@@ -1,0 +1,120 @@
+.form {
+    padding: 18px 50px 56px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    margin-bottom: 52px;
+}
+
+
+.form__title {
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    font-weight: bold;
+    margin: 15px 0 39px 0;
+}
+
+
+.form__text {
+    font-size: 17px;
+    line-height: 30px;
+    color: #000000;
+    margin: 21px 0 39px 0;
+    padding-bottom: 35px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.form__button {
+    background: none;
+    font-size: 21px;
+    color: #5c6bc0;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 18px 33px;
+    position: relative;
+    left: -34px;
+    border: 1px solid transparent;
+}
+
+.form__button:hover {
+    border: 1px solid #f1f1f1;
+}
+
+.form__button:active {
+    border: 1px solid #5c6bc0;
+}
+
+.form__inputs {
+    font-size: 0;
+}
+
+.input {
+    border: none;
+    height: 55px;
+    background-color: #f7f9fc;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.info__input_small, .info__input_right-small {
+    width: 48%;
+}
+
+.info__input_right-small {
+    margin-right: 3%;
+}
+
+.info__input_textarea {
+    min-height: 145px;
+    resize: vertical;
+    background: #f7f9fc url("./images/arrow.png") no-repeat right bottom;
+}
+
+@media screen and (max-width: 480px) {
+    .form__button {
+        display: inline-block;
+        position: inherit;
+        left: 0;
+        padding: 17px;
+    }
+
+    .form__title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .input {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+
+    .content__form {
+        padding: 20px;
+        position: relative;
+    }
+
+    .form__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .form__text {
+        font-size: 16px;
+        margin-bottom: 34px;
+        padding-bottom: 30px;
+    }
+
+    .form__button {
+        font-size: 20px;
+        padding: 10px;
+        position: relative;
+        left: -10px;
+    }
+}
