@@ -27,18 +27,27 @@
     justify-content: space-around;
     align-items: baseline;
     flex-direction: row;
-    width: 63%;
+    width: 50%;
 }
 
-.footer-menu__item, .footer-menu__item__inactive {
+.footer-menu__item, .footer-menu__item_inactive {
     color: #ffffff;
 }
 
-.footer-menu__item__search {
+.footer-menu__item_search {
     background: url("./images/Search-footer.png") center center no-repeat;
 }
 
-.footer-menu__item, .footer-menu__item__inactive {
+.footer-menu__item_search:hover {
+    opacity: 0.8;
+}
+
+
+.footer-menu__item_search:active {
+    opacity: 0.5;
+}
+
+.footer-menu__item, .footer-menu__item_inactive {
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -49,7 +58,7 @@
     text-transform: uppercase;
 }
 
-.footer-menu__item__search {
+.footer-menu__item_search {
     padding: 0;
     margin: 0;
     display: flex;
@@ -58,7 +67,7 @@
     vertical-align: text-top;
 }
 
-.footer-menu__item__inactive {
+.footer-menu__item_inactive {
     opacity: 0.5;
 }
 
@@ -85,7 +94,7 @@
     border-top: 2px solid #5765b5;
     content: "";
     max-width: 700px;
-    margin: 35px 0 37px 0;
+    margin: 35px 0 30px 0;
 }
 
 .footer__rights {
@@ -104,6 +113,8 @@
 
 .footer__social {
     margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
 }
 
 .social {
@@ -145,6 +156,13 @@
     height: 22px;
 }
 
+.social__facebook:hover, .social__instagram:hover, .social__twitter:hover, .social__pinterest:hover {
+    opacity: 0.8;
+}
+
+.social__facebook:active, .social__instagram:active, .social__twitter:active, .social__pinterest:active {
+    opacity: 0.5;
+}
 
 .footer-menu__item:after {
     position: relative;
@@ -164,7 +182,7 @@
 }
 
 .footer-menu__item:active {
-    color: #5c6bc0;
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 480px) {
@@ -178,16 +196,19 @@
         width: 100%;
     }
 
-    .footer-menu__item__search {
+    .footer-menu__item_search {
         display: none;
     }
 }
 
 @media screen and (max-width: 320px) {
 
-
     .footer__menu {
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer-menu__item:after {
+        bottom: 0;
     }
 }

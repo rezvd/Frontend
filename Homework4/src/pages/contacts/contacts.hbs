@@ -1,16 +1,15 @@
 {{#>layout/layout}}
-<article class="form">
-    <h1 class="form__title">Contact info</h1>
-    <p class="form__text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante
-        posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam
-        justo.</p>
-    <form action="#" method="post" class="form__info">
-        <input id="form__name" type="text" placeholder="Your name" class="info__input_right-small input" tabindex="1">
-        <input id="form__email" type="text" placeholder="Email" class="info__input_small input" tabindex="2">
-        <input id="form__subject" type="text" placeholder="Subject" class="info__input input" tabindex="3">
-        <textarea id="form__message" placeholder="Your message" class="info__input_textarea input" tabindex="4"></textarea>
+    <form action="#" method="post" class="form">
+        <h1 class="form__title">Contact info</h1>
+        <p class="form__text">Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante
+            posuere non. Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi
+            tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam
+            justo.</p>
+        <input id="form__name" name="name" type="text" placeholder="Your name" class="form__input_right-small input" tabindex="1">
+        <input id="form__email" name="email" type="text" placeholder="Email" class="form__input_small input" tabindex="2">
+        <input id="form__subject" name="subject" type="text" placeholder="Subject" class="form__input input" tabindex="3">
+        <textarea id="form__message" name="message" placeholder="Your message" class="form__input_textarea input"
+                  tabindex="4"></textarea>
         <input type="submit" class="form__button" value="Send message" tabindex="5">
     </form>
-</article>
 {{/layout/layout}}

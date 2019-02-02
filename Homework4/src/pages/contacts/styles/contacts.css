@@ -50,7 +50,7 @@
 }
 
 .input {
-    border: none;
+    border: 1px solid transparent;
     height: 55px;
     background-color: #f7f9fc;
     padding: 20px 30px;
@@ -60,15 +60,23 @@
     font-size: 20px;
 }
 
-.info__input_small, .info__input_right-small {
+.input:hover{
+    background-color: rgba(92, 107, 192, 0.13);
+}
+
+.input:focus{
+    border: 1px solid #5c6bc0;
+}
+
+.form__input_small, .form__input_right-small {
     width: 48%;
 }
 
-.info__input_right-small {
+.form__input_right-small {
     margin-right: 3%;
 }
 
-.info__input_textarea {
+.form__input_textarea {
     min-height: 145px;
     resize: vertical;
     background: #f7f9fc url("./images/arrow.png") no-repeat right bottom;
