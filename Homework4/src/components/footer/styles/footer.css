@@ -35,7 +35,10 @@
 }
 
 .footer-menu__item_search {
-    background: url("./images/Search-footer.png") center center no-repeat;
+    background-image: url(./images/search.png);
+    background-position: -32px 0;
+    width: 16px;
+    height: 16px;
 }
 
 .footer-menu__item_search:hover {

@@ -79,11 +79,17 @@
 }
 
 .header-menu__item_search {
-    background: url("./images/Search-header.png") center center no-repeat;
+    background-image: url(./images/search.png);
+    background-position: -16px 0;
+    width: 16px;
+    height: 17px;
 }
 
 .header-menu__item_search:hover {
-    background: url("./images/Search-header-hover.png") center center no-repeat;
+    background-image: url(./images/search.png);
+    background-position: 0 0;
+    width: 16px;
+    height: 17px;
 }
 
 @media screen and (max-width: 780px) {
@@ -133,5 +139,17 @@
 
     .header-menu__item, .header-menu__item_inactive, .header-menu__item_search {
         display: none;
+    }
+}
+
+@media screen and (max-width: 265px) {
+
+    .header{
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .header__title{
+        margin: 0 0 20px 0;
     }
 }

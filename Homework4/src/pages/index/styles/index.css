@@ -142,6 +142,7 @@
 .photo__center {
     max-width: 952px;
     width: calc(100% + 190px);
+    height: auto;
     margin: -20px 0 21px -95px;
 }
 
@@ -162,6 +163,8 @@
 }
 
 .photo__left {
+    width: auto;
+    height: auto;
     float: left;
     margin: 0 23px 43px 0;
 }
@@ -276,8 +279,7 @@
 
     .photo__center {
         width: calc(100% + 40px);
-        left: -20px;
-        right: 0;
+        margin: -20px 0 0 -20px;
     }
 
     .footer__menu {
